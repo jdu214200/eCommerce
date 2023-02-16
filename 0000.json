@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "name": "Redmi 13 Ultra",
+      "price": "1200",
+      "image": "1.jpeg"
+     
+    },
+    
+    {
+      "id": 2,
+      "name": "Redmi 12 Ultra",
+      "price": "1.269",
+      "image": "2.jpg"
+      
+    },
+    {
+      "id": 3,
+      "name": "Redmi 11 Ultra",
+      "price": "999",
+      "image": "3.jpg"
+     
+    },  
+
+    {
+      "id": 4,
+      "name": "Redmi 11 ",
+      "price": "500",
+      "image": "4.jpg"
+      
+    },
+    {
+      "id": 5,
+      "name": "Redmi 12 lite",
+      "price": "750",
+      "image": "5.jpg"
+     
+    },
+    
+    {
+      "id": 6,
+      "name": "Redmi 12 T Pro",
+      "price": "770",
+      "image": "8.jpg"
+      
+    }
+    
+    
+  ]
