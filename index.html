@@ -1,61 +1,269 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="0000.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="box">
-        <header>
-            <div class="text"> Mi-Store</div>
-        </header>
-        <div class="text__product">  
-            <div class="text__one">Products</div>
-            <div class="text__two">Cart</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Xiaomi</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/fonts.css">
+  <link rel="stylesheet" href="style/icons.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" href="./images/title.jpg">
+</head>
+
+<body>
+  <form>
+    <header class="header">
+      <h1 class="header__title">MI shoping</h1>
+      <!-- <p class="header__descr"></p> -->
+      <!-- <div class="header__timer">
+        <span class="header__timer-extra">0</span> LVL
+      </div> -->
+      <!-- 
+                 Uy-ishi:
+                 Rekursiya orqali animatsiyalangan logotip qilish. 0 dan 100gacha raqamlar. Undan tashqari raqamlar 50 dan keyin almashishi sekinlashishi kerak.
+            -->
+
+    </header>
+    <main class="main">
+      <!-- Burger 1 -->
+      <section class="main__product" id="plainBurger">
+        <div class="main__product-preview">
+          <div class="main__product-info">
+            <img src="./images/1.jpeg" alt="" class="main__product-img">
+            <h2 class="main__product-title">Xiaomi13 ultra
+              <span class="main__product-many">1400$</span>
+            </h2>
+          </div>
+          <p class="main__product-descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
         </div>
-        <div class="container">
+        <div class="main__product-extra">
+          <div class="main__product-number">
 
-            <div class="products">
-                
-                <div class="left">
-                    <!-- <header>
-                        <div id="about">
-                            <span>Filter :</span>
-                            <a href="#" >All</a>
-                            <a href="#">Design</a>
-                            <a href="#" >Photos</a>
-                            <a href="#" >Art</a>
-                        
-                        </div>
-                    
-                    </header> -->
-                   
-                        <div class="content">
-                            
-                        </div>  
-    
-    
-                </div>
-                
-                <div class="right">
-                    <div> <h2>PORTFOLIO</h2> </div> 
-                    <div class="out__cod" id="OutCod">
-                        
-                    </div>
-                </div>
-            </div>
+            <!-- Miqdorga qo'shilish -->
 
-            
+            <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+            <!-- Minus knopkasi -->
 
+            <output class="main__product-num">0</output>
+            <!-- Miqdor -->
+
+            <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+            <!-- Plus knopkasi -->
+
+          </div>
+          <div class="main__product-price"><span>0</span>$</div> <!-- umumiy narx -->
         </div>
+
+
+
+      </section>
+      <section class="main__product" id="freshBurger">
+        <div class="main__product-preview">
+          <div class="main__product-info">
+            <img src="./images/2.jpg" alt="" class="main__product-img">
+            <h2 class="main__product-title">Xiaomi12 ultra <span class="main__product-many">800$</span></h2>
+
+          </div>
+          <p class="main__product-descr">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="main__product-extra">
+          <div class="main__product-number">
+
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+            <!-- Minus knopkasi -->
+
+            <output class="main__product-num">0</output>
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+            <!-- Plus knopkasi -->
+
+          </div>
+          <div class="main__product-price"><span>0</span> $</div> <!-- Umumiy miqdor -->
+        </div>
+
+
+
+      </section>
+      <section class="main__product" id="freshCombo">
+        <div class="main__product-preview">
+          <div class="main__product-info">
+            <img src="./images/3.jpg" alt="" class="main__product-img">
+            <h2 class="main__product-title">Xiaomi11 ultra <span class="main__product-many">600$</span>
+            </h2>
+
+          </div>
+          <p class="main__product-descr">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit?
+
+          </p>
+        </div>
+        <div class="main__product-extra">
+          <div class="main__product-number">
+
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+            <!-- Minus knopkasi -->
+
+            <output class="main__product-num">0</output>
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+            <!-- Plus knopkasi -->
+
+          </div>
+          <div class="main__product-price"><span>0</span> $</div> <!-- Umumiy miqdor -->
+        </div>
+
+
+
+      </section>
+
+      <section class="main__product" id="plainBurgers">
+        <div class="main__product-preview">
+          <div class="main__product-info">
+            <img src="./images/4.jpg" alt="" class="main__product-img">
+            <h2 class="main__product-title">Xiaomi11<span class="main__product-many">400$</span>
+            </h2>
+          </div>
+          <p class="main__product-descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="main__product-extra">
+          <div class="main__product-number">
+
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+            <!-- Minus knopkasi -->
+
+            <output class="main__product-num">0</output>
+            <!-- Miqdor -->
+
+            <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+            <!-- Plus knopkasi -->
+
+          </div>
+          <div class="main__product-price"><span>0</span>$</div> <!-- umumiy narx -->
+        </div>
+
+
+
+      </section>
+      <section class="main__product" id="freshBurgers">
+        <div class="main__product-preview">
+          <div class="main__product-info">
+            <img src="./images/5.jpg" alt="" class="main__product-img">
+            <h2 class="main__product-title">Xiaomi 12 lite<span class="main__product-many">650$</span></h2>
+
+          </div>
+          <p class="main__product-descr">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="main__product-extra">
+          <div class="main__product-number">
+
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+            <!-- Minus knopkasi -->
+
+            <output class="main__product-num">0</output>
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+            <!-- Plus knopkasi -->
+
+          </div>
+          <div class="main__product-price"><span>0</span> $</div> <!-- Umumiy miqdor -->
+        </div>
+
+
+
+      </section>
+      <section class="main__product" id="freshCombos">
+        <div class="main__product-preview">
+          <div class="main__product-info">
+            <img src="./images/Xiaomi-12T-Banner.jpg" alt="" class="main__product-img">
+            <h2 class="main__product-title">Redmi 12T<span class="main__product-many">520$</span>
+            </h2>
+
+          </div>
+          <p class="main__product-descr">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit?
+
+          </p>
+        </div>
+        <div class="main__product-extra">
+          <div class="main__product-number">
+
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg minus" data-symbol="-"></a>
+            <!-- Minus knopkasi -->
+
+            <output class="main__product-num">0</output>
+            <!-- Miqdorga qo'shilish -->
+
+            <a class="main__product-btn fa-reg plus" data-symbol="+"></a>
+            <!-- Plus knopkasi -->
+
+          </div>
+          <div class="main__product-price"><span>0</span> $</div> <!-- Umumiy miqdor -->
+        </div>
+
+
+
+      </section>
+
+
+    </main>
+
+
+    <div class="button">
+      <!-- zakaz knopkasi -->
+      <button class="addCart" type="reset">
+        <span class="fa-reg cart"></span> Delivery
+      </button>
     </div>
-    
+  </form>
+  <div class="receipt active">
+    <!-- chek -->
+    <div class="receipt__window">
+      <h2 class="receipt__window-title">Check</h2>
 
-    <script type="module" src="0000.js"></script>
+      <!-- Chekga informatsiya chiqishi  -->
+      <div class="receipt__window-out"></div>
+
+      <button class="receipt__window-btn">Pay</button> <!-- bosilganda sahifa yengilanadi -->
+    </div>
+  </div>
+
+  <div class="view">
+    <button class="view__close">
+      <span class="fa-reg close"></span>
+    </button>
+    <img src="images/product1.jpg" alt="">
+  </div>
+
+  <!-- fineshed -->
+  <!-- footer started -->
+
+  
+
+  <script src="./script/script.js"></script>
 </body>
-</html>
 
+</html>
